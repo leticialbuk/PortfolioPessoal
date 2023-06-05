@@ -1,8 +1,8 @@
  body {
      font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
      padding-top: 54px;
-     color: #a1a1a1;
-     background: #212529;
+     color: #000000;
+     background: hsl(287, 100%, 98%);
  }
 
  @media (min-width:992px) {
@@ -12,12 +12,12 @@
      }
  }
 
- h2{
-     color: #a1a1a1 !important;
+ h2 {
+     color: #000000 !important;
  }
 
- h3{
-     color: #f1f1f1 !important;
+ h3 {
+     color: #000000 !important;
  }
 
  h1,
@@ -29,7 +29,7 @@
      font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
      font-weight: 700;
      text-transform: uppercase;
-     color: #868e96;
+     color: #3e1c4d;
  }
 
  h1 {
@@ -48,16 +48,16 @@
  p.lead {
      font-size: 1.15rem;
      font-weight: 400;
-     color: #f1f1f1;
+     color: #000000;
  }
 
  p,
  li {
-     color: #f1f1f1;
+     color: #000000;
  }
 
  .subheading {
-     color: #c9c9c9;
+     color: #4ca6bd;
      text-transform: uppercase;
      font-weight: 500;
      font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -68,8 +68,8 @@
      display: inline-block;
      height: 3.5rem;
      width: 3.5rem;
-     background-color: #495057;
-     color: #fff !important;
+     background-color: #b18fdd;
+     color: #3e1c4d !important;
      border-radius: 100%;
      text-align: center;
      font-size: 1.5rem;
@@ -82,7 +82,7 @@
  }
 
  .social-icons a:hover {
-     background-color: #3A5FCD;
+     background-color: #4ca6bd;
  }
 
  .dev-icons {
@@ -90,7 +90,7 @@
  }
 
  .dev-icons .list-inline-item i:hover {
-     color: #3A5FCD;
+     color: #4ca6bd;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link {
@@ -100,7 +100,7 @@
  }
 
  #sideNav .navbar-toggler:focus {
-     outline-color: #4876FF;
+     outline-color: #b18fdd;
  }
 
  @media (min-width:992px) {
@@ -124,7 +124,7 @@
      #sideNav .navbar-brand .img-profile {
          max-width: 10rem;
          max-height: 10rem;
-         border: .5rem solid rgba(255, 255, 255, .2);
+         border: .5rem solid #b18fdd;
      }
 
      #sideNav .navbar-collapse {
@@ -177,10 +177,10 @@
  }
 
  .bg-primary {
-     background-color: #466eff !important;
+     background-color: #b18fdd !important;
  }
 
  .nounderline {
      text-decoration: none !important;
-     color: #868E96;
+     color: #b18fdd;
  }
